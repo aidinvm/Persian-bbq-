@@ -1,0 +1,30 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Next.js
+/.next/
+/out/
+
+# Local data fallback (dev only)
+/.data/
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Vercel
+.vercel
+
+# Archived legacy PHP/Firebase site (contains old credentials/assets)
+_legacy_backup/
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+next-env.d.ts
